@@ -1,6 +1,6 @@
 # Heterogeneous Graph Contrastive Multi-view Learning
 
-This repo is for source code of SDM 2023 paper "Heterogeneous Graph Contrastive Multi-view Learning". [paper](https://arxiv.org/abs/2210.00248)
+This repo is for source code of SDM 2023 paper "**Heterogeneous Graph Contrastive Multi-view Learning**". [paper](https://arxiv.org/abs/2210.00248)
 
 ## Environment Settings
 
@@ -12,7 +12,7 @@ This repo is for source code of SDM 2023 paper "Heterogeneous Graph Contrastive 
 
 ## Dataset
 
-We utilize five benchmark datasets in the paper to perform node classification and node clustering tasks. We provide ACM, AMiner in [GoogleDrive](https://drive.google.com/drive/folders/1kJfrSP-bMF3MZ8GJx_pHdmWOnq5Rv2R3?usp=sharing). 
+We utilize five benchmark datasets in the paper to perform node classification and node clustering tasks. The DBLP and IMDB datasets are built in PyG. We provide ACM, AMiner, and FreeBase in [GoogleDrive](https://drive.google.com/drive/folders/1kJfrSP-bMF3MZ8GJx_pHdmWOnq5Rv2R3?usp=sharing). 
 
 * ACM
 * DBLP
