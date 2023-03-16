@@ -33,5 +33,5 @@ Please put the "pos" folder in the root directory, like "/HGCML/pos/...".
 For example, if you want to run HGCML-P on ACM dataset, execute
 
 ```
-python main.py --dataset acm --lr 1e-3 --tau 0.5 --num_semantic_pos 16 --num_topology_pos 16
+python main.py --dataset acm
 ```
