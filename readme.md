@@ -1,6 +1,6 @@
 # Heterogeneous Graph Contrastive Multi-view Learning
 
-This repo is for source code of SDM 2023 paper "**Heterogeneous Graph Contrastive Multi-view Learning**". [paper](https://arxiv.org/abs/2210.00248)
+This repo is for source code of SDM 2023 paper "**Heterogeneous Graph Contrastive Multi-view Learning**". [paper](https://epubs.siam.org/doi/abs/10.1137/1.9781611977653.ch16)
 
 ## Environment Settings
 
