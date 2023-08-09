@@ -170,7 +170,7 @@ def get_dataset(dataset_name):
     path = osp.join('data', dataset_name)
 
     if dataset_name == 'dblp':
-        dataset = DBLP(path, transform=T.NormalizeFeatures())
+        dataset = DBLP(path)
         metapaths = [
             [('author', 'paper'), ('paper', 'author')],
             [('author', 'paper'), ('paper', 'term'), ('term', 'paper'), ('paper', 'author')],
@@ -178,28 +178,28 @@ def get_dataset(dataset_name):
         ]
         target = 'author'
     elif dataset_name == 'imdb':
-        dataset = IMDB(path, transform=T.NormalizeFeatures())
+        dataset = IMDB(path)
         metapaths = [
             [('movie', 'director'), ('director', 'movie')],
             [('movie', 'actor'), ('actor', 'movie')]
         ]
         target = 'movie'
     elif dataset_name == 'acm':
-        dataset = ACM(path, transform=T.NormalizeFeatures())
+        dataset = ACM(path)
         metapaths = [
             [('paper', 'author'), ('author', 'paper')],
             [('paper', 'subject'), ('subject', 'paper')]
         ]
         target = 'paper'
     elif dataset_name == 'aminer':
-        dataset = AMiner(path, transform=T.NormalizeFeatures())
+        dataset = AMiner(path)
         metapaths = [
             [('paper', 'reference'), ('reference', 'paper')],
             [('paper', 'author'), ('author', 'paper')]
         ]
         target = 'paper'
     elif dataset_name == 'freebase':
-        dataset = FreeBase(path, transform=T.NormalizeFeatures())
+        dataset = FreeBase(path)
         metapaths = [
             [('movie', 'actor'), ('actor', 'movie')],
             [('movie', 'director'), ('director', 'movie')],
