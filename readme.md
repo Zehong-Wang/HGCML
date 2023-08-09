@@ -35,3 +35,20 @@ For example, if you want to run HGCML-P on ACM dataset, execute
 ```
 python main.py --dataset acm
 ```
+
+## Citation
+
+```
+@inproceedings{wang2023heterogeneous,
+  title={Heterogeneous graph contrastive multi-view learning},
+  author={Wang, Zehong and Li, Qi and Yu, Donghua and Han, Xiaolong and Gao, Xiao-Zhi and Shen, Shigen},
+  booktitle={Proceedings of the 2023 SIAM International Conference on Data Mining (SDM)},
+  pages={136--144},
+  year={2023},
+  organization={SIAM}
+}
+```
+
+## Contact
+
+If you have any questions, don't hesitate to contact me (zwang43@nd.edu, zehongwang0414@gmail.com)!
